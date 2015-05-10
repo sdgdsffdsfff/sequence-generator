@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:sequence="https://raw.githubusercontent.com/spccold/xsd/master"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		 https://raw.githubusercontent.com/spccold/xsd/master
+         https://raw.githubusercontent.com/spccold/xsd/master/sequence-3.0.xsd">
+         
+	<sequence:sequence name="test1"/>	
+	<sequence:sequence name="test2"/>
+</beans>

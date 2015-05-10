@@ -1,0 +1,5 @@
+sequence:
+  jdbc:
+    url: jdbc:mysql://sequence.51.nb:3306/sequence_database?useUnicode=true&amp;characterEncoding=UTF-8 
+    username: root 
+    password: root

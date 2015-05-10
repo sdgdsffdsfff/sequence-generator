@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="https://raw.githubusercontent.com/spccold/xsd/master"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://raw.githubusercontent.com/spccold/xsd/master"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xsd:element name="sequence">
+		<xsd:annotation>
+			<xsd:documentation>
+				<![CDATA[config for sequence]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="name" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						<![CDATA[sequence name,this should be unique in all projects,
+						it can named company+department＋project+business field]]>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
